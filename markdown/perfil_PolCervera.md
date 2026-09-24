@@ -43,9 +43,9 @@ imagen
 
 ## 3 tecnologias
 
-| **GraphQL** | **Kubernetes** | **Rust** |
-|:--------|:------:|------:|
-| nivel 0 | nivel 0 | nivel 0 |
+| **GraphQL**                                                                     |                                       **Kubernetes**                                       |                                                                                            **Rust** |
+| :------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------: |
+| nivel 0                                                                         |                                          nivel 0                                           |                                                                                             nivel 0 |
 | [Documentació oficial de GraphQL](https://graphql.org/learn/?utm_source=gemini) | [Kubernetes Documentation & Tutorials](https://kubernetes.io/docs/home/?utm_source=gemini) | [The Rust Programming Language (Llibre oficial)](https://doc.rust-lang.org/book/?utm_source=gemini) |
 
 <br>
@@ -79,3 +79,5 @@ Lograr dominar las bases de arquitectura de sistemas y expandir mis conocimiento
 - [ ] Completar el primer mòdul pràctic de Kubernetes
 - [ ] Implementar un projecte utilitzant Rust
 
+# Herramientas que estoy aprendiendo
+- Figma
