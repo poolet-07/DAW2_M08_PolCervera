@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pol Cervera · Desarrollador web</title>
+  <meta name="description" content="Portfolio profesional de Pol Cervera, estudiante de DAW en busca de prácticas como desarrollador web.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Inicio">PC</a>
+    <nav id="menu" aria-label="Principal">
+      <a href="#perfil">Perfil</a>
+      <a href="#competencias">Competencias</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="tools">
+      <button class="theme-btn" aria-label="Cambiar tema claro u oscuro">◐</button>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menú</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="inicio">
+      <p class="sticker">Disponible para prácticas</p>
+      <h1><span>Pol</span><span>Cervera</span></h1>
+      <p class="role">Desarrollador web · CFGS DAW</p>
+      <p class="lead">Construyo webs claras, rápidas y accesibles que funcionan en cualquier pantalla.</p>
+      <div class="actions">
+        <a class="btn yellow" href="mailto:tu-correo@ejemplo.com">Escríbeme</a>
+        <a class="btn" href="#proyectos">Ver proyectos</a>
+        <a class="btn" href="https://github.com/poolet-07" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/tu-usuario" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div>
+        <span>HTML5 ✱ CSS3 ✱ JavaScript ✱ Git ✱ GitHub ✱ Responsive ✱ Flexbox ✱ Grid ✱ </span>
+        <span>HTML5 ✱ CSS3 ✱ JavaScript ✱ Git ✱ GitHub ✱ Responsive ✱ Flexbox ✱ Grid ✱ </span>
+      </div>
+    </div>
+
+    <section id="perfil">
+      <h2>Perfil profesional</h2>
+      <div class="grid two">
+        <article class="card pink">
+          <p class="big">Estudiante de segundo de DAW con ganas de pasar de las prácticas de clase a un equipo real.</p>
+          <p>Sé maquetar con HTML semántico y CSS propio, dar interactividad con JavaScript y trabajar con Git y GitHub.</p>
+        </article>
+        <article class="card">
+          <h3>Qué busco</h3>
+          <p>Unas prácticas en desarrollo web donde aprender en equipo, recibir feedback y aportar desde el primer día.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="competencias">
+      <h2>Competencias técnicas</h2>
+      <div class="grid three">
+        <article class="card blue">
+          <h3>Front-end</h3>
+          <ul class="chips"><li>HTML5 semántico</li><li>CSS3</li><li>Flexbox y Grid</li><li>Responsive</li><li>JavaScript</li></ul>
+        </article>
+        <article class="card green">
+          <h3>Herramientas</h3>
+          <ul class="chips"><li>Git</li><li>GitHub</li><li>GitHub Pages</li><li>VS Code</li></ul>
+        </article>
+        <article class="card">
+          <h3>Idiomas</h3>
+          <ul class="chips"><li>Castellano</li><li>Catalán</li><li>Inglés (tu nivel)</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="filters" role="group" aria-label="Filtrar proyectos">
+        <button class="on" data-filter="todos">Todos</button>
+        <button data-filter="web">Web</button>
+        <button data-filter="juegos">Juegos</button>
+      </div>
+      <ul class="projects">
+        <li class="project featured" data-type="web">
+          <div class="tag-bar">Web</div>
+          <div class="body">
+            <h3>Este portfolio</h3>
+            <p>Web personal responsive hecha con HTML, CSS y JavaScript, sin frameworks.</p>
+            <p class="tags">HTML · CSS · JavaScript</p>
+            <a class="btn small" href="https://github.com/poolet-07/DAW2_M08_PolCervera" rel="noopener">Ver repositorio</a>
+          </div>
+        </li>
+        <li class="project" data-type="web">
+          <div class="tag-bar">Web</div>
+          <div class="body">
+            <h3>Nombre de tu práctica</h3>
+            <p>Explica en una frase qué hace y qué aprendiste. Sustituye este texto por un proyecto real.</p>
+            <p class="tags">Tecnologías usadas</p>
+            <a class="btn small" href="https://github.com/poolet-07" rel="noopener">Ver repositorio</a>
+          </div>
+        </li>
+        <li class="project" data-type="juegos">
+          <div class="tag-bar">Juegos</div>
+          <div class="body">
+            <h3>Otro proyecto</h3>
+            <p>Añade más proyectos cuando los tengas. El filtro se adapta solo.</p>
+            <p class="tags">Tecnologías usadas</p>
+            <a class="btn small" href="https://github.com/poolet-07" rel="noopener">Ver repositorio</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación y experiencia</h2>
+      <ol class="timeline">
+        <li class="card"><time datetime="2025">2025 – actualidad</time><h3>CFGS Desarrollo de Aplicaciones Web</h3><p>Tu centro educativo. Programación, bases de datos y desarrollo web.</p></li>
+        <li class="card"><time datetime="2023">2023 – 2025</time><h3>Tu formación anterior</h3><p>Bachillerato, otro ciclo o experiencia relevante.</p></li>
+      </ol>
+    </section>
+
+    <section id="contacto">
+      <div class="cta">
+        <h2>¿Hablamos?</h2>
+        <p>Si tienes unas prácticas o un proyecto en mente, escríbeme.</p>
+        <a class="mail" href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Pol Cervera · Hecho con HTML, CSS y JavaScript</p>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
